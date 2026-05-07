@@ -1,5 +1,3 @@
-# MissionMind
-
-![alt text](Scheme.png)
+# Peafowl
 
 https://github.com/arkadii888/MissionGroundBase
