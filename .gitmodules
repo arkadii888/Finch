@@ -1,6 +1,6 @@
-[submodule "MissionController"]
-	path = MissionController
-	url = git@github.com:arkadii888/MissionController.git
-[submodule "MissionAgent"]
-	path = MissionAgent
-	url = git@github.com:arkadii888/MissionAgent.git
+[submodule "Executor"]
+	path = Executor
+	url = git@github.com:arkadii888/Executor.git
+[submodule "Agent"]
+	path = Agent
+	url = git@github.com:arkadii888/Agent.git
