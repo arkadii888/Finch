@@ -10,11 +10,11 @@ The scheme above provides a basic overview of how the system works.
 
 To go into more detail, it can be divided into three main components:
 
-1. Ground Base
+*1. Ground Base*
 
 This is the UI for system interaction, which sends prompts and commands via the TCP protocol. You can implement this on any device connected to the RPi access point over Wi-Fi. In our case, we are using an Electron desktop [application](https://github.com/arkadii888/GroundBase).
 
-2. Paspberry Pi Stack
+*2. Paspberry Pi Stack*
 
 This can also be divided into three parts:
 
@@ -27,7 +27,7 @@ This can also be divided into three parts:
 
 Upon startup, the RPi creates a Wi-Fi access point and initializes MAVProxy for drone communication. MAVProxy splits the telemetry stream into two channels: one for the Executor and another for QGroundControl(a standard application that allows you to wirelessly configure the flight controller and monitor the drone once connected to the access point).
 
-3. Flight Controller
+*3. Flight Controller*
 
 This is a flight controller with PX4 firmware installed and MAVLink communication enabled.
 
