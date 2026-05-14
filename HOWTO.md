@@ -1,1 +1,1 @@
-# The step by step guide how to replicate our setup
+# How to replicate our setup?
