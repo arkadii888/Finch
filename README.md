@@ -18,15 +18,15 @@ This is the UI for system interaction, which sends prompts and commands via the 
 
 This can also be divided into three parts:
 
-- Executor
+**Executor**
 
 A C++ application that hosts a TCP server for communication with the Ground Base, a gRPC server for communication with the Agent, and utilizes MAVSDK to communicate with the flight controller.
 
-- Agent
+**Agent**
 
 
 
-- Setup
+**Setup**
 
 Upon startup, the RPi creates a Wi-Fi access point and initializes MAVProxy for drone communication. MAVProxy splits the telemetry stream into two channels: one for the Executor and another for QGroundControl(a standard application that allows you to wirelessly configure the flight controller and monitor the drone once connected to the access point).
 
