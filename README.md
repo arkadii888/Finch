@@ -20,8 +20,11 @@ This can also be divided into three parts:
 
 - Executor
 
+A C++ application that hosts a TCP server for communication with the Ground Base, a gRPC server for communication with the Agent, and utilizes MAVSDK to communicate with the flight controller.
 
 - Agent
+
+
 
 - Setup
 
@@ -33,7 +36,7 @@ This is a flight controller with PX4 firmware installed and MAVLink communicatio
 
 ## How to test the model separately?
 
-text
+link
 
 ## How to replicate our setup?
 
