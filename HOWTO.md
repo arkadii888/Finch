@@ -62,3 +62,19 @@ sudo systemctl start mavproxy.service
 ```
 
 Reboot the system.
+
+**Step 5. Install our software stack on the Raspberry Pi.**
+
+Install and run [Executor](https://github.com/arkadii888/Executor).
+
+Install and run [Agent](https://github.com/arkadii888/Agent).
+
+**Step 6. Configure the ground base.**
+
+Connect to the Raspberry Pi's Wi-Fi access point from your computer. Install and run [GroundBase](https://github.com/arkadii888/GroundBase). 
+
+You can use any implementation in accordance with the Executor requirements.
+
+**Step 6. Try the system.**
+
+Try sending a prompt, for example: "take off to 10m, fly north 20m, return to the starting point."
