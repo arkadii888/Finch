@@ -14,7 +14,7 @@ To go into more detail, it can be divided into three main components:
 
 This is the UI for system interaction, which sends prompts and commands via the TCP protocol. You can implement this on any device connected to the RPi access point over Wi-Fi. In our case, we are using our Electron desktop [application](https://github.com/arkadii888/GroundBase).
 
-**2. Paspberry Pi Stack**
+**2. Paspberry Pi Stack (Finch)**
 
 This can also be divided into three parts:
 
