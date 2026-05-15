@@ -75,7 +75,7 @@ Install and run [Agent](https://github.com/arkadii888/Agent).
 
 **Step 6. Configure the ground base.**
 
-Connect to the Raspberry Pi's Wi-Fi access point from your computer. Install and run [GroundBase](https://github.com/arkadii888/GroundBase). 
+Install and run [GroundBase](https://github.com/arkadii888/GroundBase). Connect to the Raspberry Pi's Wi-Fi access point from your computer.  
 
 You can use any implementation in accordance with the Executor requirements.
 
