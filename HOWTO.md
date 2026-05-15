@@ -77,7 +77,7 @@ You can use any implementation in accordance with the Executor requirements.
 
 **Step 6. Try the system.**
 
-Please note: For safety, test everything at home first with the propellers removed. Reset all flight controller settings to default, reboot, switch it to SIH (Simulation In Hardware) mode, and enable Telem2. You will be able to monitor the flight directly in QGroundControl. For field tests, you can reset all settings to default again, reboot, and upload the parameters from Step 2.
+Please note: For safety, test everything at home first with the propellers removed. Reset all flight controller settings to default, reboot, switch it to SIH (Simulation In Hardware) mode, and enable Telem2. You may need to restart Executor and Agent. You will be able to monitor the flight directly in QGroundControl. For field tests, you can reset all settings to default again, reboot, and upload the parameters from Step 2.
 
 Also, keep in mind that the actual flight must be conducted in accordance with your local regulations.
 
