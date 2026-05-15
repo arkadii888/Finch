@@ -11,3 +11,9 @@ You can purchase other components at your own discretion. The main thing is that
 First, install [QGroundControl](https://qgroundcontrol.com/). Then, install the [firmware](https://github.com/arkadii888/Finch/blob/main/DroneSetup/px4_fmu-v3_default.px4) and upload the [parameters](https://github.com/arkadii888/Finch/blob/main/DroneSetup/onboard.params).
 
 Important note: It is best to reconfigure the sensors in the area where you plan to fly. Also, make sure that the GPS cable does not touch the body of the flight controller. Wrap the cable around the mast on which the GPS is mounted.
+
+**Step 3. Connect and attach the Raspberry Pi to the frame.**
+
+In our case, it is a Raspberry Pi 5 with 8GB RAM. We leave the method of attaching the Raspberry Pi to the drone frame up to you. The main thing is to take the cable from the kit that fits the Telem2 port on the flight controller, which has 6 bare wires on the other end. Connect one end to Telem2, and the other ends to the pins on the Raspberry Pi: black to pin 6, blue to pin 8, and white to pin 10. Double-check that Telem2 is enabled in the flight controller parameters.
+
+Regarding power, we initially used a power bank, but it made the drone too heavy. Because of this, we connected the drone's main battery to both the drone itself and the Raspberry Pi. This requires some soldering (although it is not complicated), so we will leave this decision up to you.
