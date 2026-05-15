@@ -77,4 +77,4 @@ You can use any implementation in accordance with the Executor requirements.
 
 **Step 6. Try the system.**
 
-Try sending a prompt, for example: "take off to 10m, fly north 20m, return to the starting point."
+Try sending a prompt, for example: ```take off to 10m, fly north 20m, return to the starting point.```
