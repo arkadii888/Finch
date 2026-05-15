@@ -20,7 +20,7 @@ This can also be divided into three parts:
 
 - **Executor**
 
-A C++ application that hosts a TCP server for communication with the Ground Base, a gRPC server for communication with the Agent, and utilizes MAVSDK to communicate with the flight controller.
+A C++ application that hosts a TCP server for communication with the GroundBase, a gRPC server for communication with the Agent, and utilizes MAVSDK to communicate with the flight controller.
 
 - **Agent**
 
