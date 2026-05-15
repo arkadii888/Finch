@@ -31,7 +31,7 @@ sudo nmcli con modify FinchAP connection.autoconnect yes
 sudo nmcli con up FinchAP
 ```
 
-Also, let's set up MAVProxy to get our Telem2 connection working. MAVProxy will route the telemetry into two streams: one for Executor, and another to allow you to use QGroundControl wirelessly by connecting to the access point. Make sure that the baud rate in the Telem2 parameter matches the value below.
+Also, let's set up MAVProxy to get our Telem2 connection working. MAVProxy will route the telemetry into two streams: one for Executor, and another to allow you to use QGroundControl wirelessly by connecting to the access point. Make sure that the baudrate in the Telem2 parameter matches the value below.
 
 ```
 sudo nano /etc/systemd/system/mavproxy.service
