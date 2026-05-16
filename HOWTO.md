@@ -16,7 +16,7 @@ Important note: It is best to reconfigure the sensors in the area where you plan
 
 In our case, it is a Raspberry Pi 5 with 8GB RAM. We leave the method of attaching the Raspberry Pi to the drone frame up to you. The main thing is to take the cable from the kit that fits the Telem2 port on the flight controller, which has 6 bare wires on the other end. Connect one end to Telem2, and the other ends to the pins on the Raspberry Pi: black to pin 6, blue to pin 8, and white to pin 10. Double-check that Telem2 is enabled in the flight controller parameters.
 
-Regarding power, we initially used a power bank, but it made the drone too heavy. Because of this, we connected the drone's main battery to both the drone itself and the Raspberry Pi. This requires some soldering (although it is not complicated), so we will leave this decision up to you.
+Regarding power, we initially used a power bank, but it made the drone too heavy. Because of this, we connected the drone's main battery to both the drone itself and the Raspberry Pi using [this](https://www.amazon.de/-/en/gp/aw/d/B0F9FLF6QB?psc=1&ref=ppx_pop_mob_b_asin_title) adapter. This requires some soldering (although it is not complicated), so we will leave this decision up to you. 
 
 **Step 4. Configuring the Raspberry Pi.**
 
