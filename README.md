@@ -1,6 +1,6 @@
 # Finch
 
-intro
+A drone software stack that lets anyone fly a search mission by typing a sentence into a chat window. No confusing conrollers, no hours of training. Just: "Fly up 50 m, search for a person 100m southwest of here in a 50x50m square, and come back."
 
 ## How does it work?
 
