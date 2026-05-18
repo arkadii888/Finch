@@ -22,7 +22,7 @@ This can also be divided into three parts:
 
 A C++ application that hosts a TCP server for communication with the GroundBase, a gRPC server for communication with the Agent, and utilizes MAVSDK to communicate with the flight controller.
 
-- **Agent**: 
+- **Agent**
 
 This is the Python orchestrator for an autonomous drone stack using Gemma 4 E2B. It turns natural-language operator prompts into validated flight missions, uploads them to the vehicle controller over gRPC, and optionally runs onboard vision (ArduCam + Hailo YOLO) with an automatic person-rescue path. 
 
